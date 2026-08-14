@@ -20,7 +20,7 @@
  <img src="swot1.png" width="500" height="">
  <img src="swot2.png" width="500" height="">
  <img src="swot3.png" width="500" height="">
- 
+
 **NEED EDITING**
 
 Both Yuna and Arisa's SWOT feedback has allowed me to draw valuable insights on my project ideas and weaknesses that I may have to address and work in consideration while I produce my projects. 
@@ -32,4 +32,18 @@ While the fishnpte aquarium is generally a good idea blah blah baljh, I will nee
 ANimal outfit designer is unique idea and is hgihly interactive, but it can misrespresent certain clothign and may come to have copyright issues,
 
 However..... "", making  it a more suitbale choice for my final project overall. 
- 
+## Design brief
+
+### Requirements Outline: (Functional requirements)
+1. Home page:
+2. Sections:
+3. post page
+4. dropdown menu
+
+### Requirements Outline: (Nonfunctional requirements)
+1. Performance
+2. Usability
+3. Reliability
+4. Security
+
+
