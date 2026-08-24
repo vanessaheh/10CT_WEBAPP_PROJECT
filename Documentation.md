@@ -11,7 +11,7 @@
 |Fishnote aquarium| A graphic interactive app with colour/species coordinated fish (for different subjects, priorities, etc) which users can write notes on their scales| Study motivation/ Education| Students/ General public (english)
 |Upcycle Web| Website which provides step by step guides on how to upcycle common household rubbish, aiming to reduce waste and promote a circular economy| Environmental sustainability/ Hobby| General public (english)
 |Animal outfit designer| An app where users can design outfits by dressing up animals in uploaded clothing items with assigned prices and links. The user can then decide to export the outfit (png) with a calculated final price if they wish to purchase.| Fashion/ Entertainment| General public/ Users interested in fashion or outfit design
-|Textile gallery| An interactive website where users can upload and recommend different textile materials (eg. fabric patterns, ribbons, textures) and where they are available for purchase in a based gallery.| Hobby | General public/ Users interested in textiles or craft
+|Textile gallery| An interactive website where users can upload their textile projects, recommend different materials (eg. fabric patterns, ribbons, textures) and where said materials are available for purchase in a graphic gallery.| Hobby | General public/ Users interested in textiles or craft
 
 ### Impact/Effort matrix (converge):
  <img src="matrix.png" width="500" height="">
@@ -19,6 +19,7 @@
  ### SWOT peer anaylsis (converge):
  <img src="swot1.png" width="500" height="">
  <img src="swot2.png" width="500" height="">
+ <img src="swot3.png" width="500" height="">
 
 **NEED EDITING**
 
@@ -31,4 +32,18 @@ While the fishnpte aquarium is generally a good idea blah blah baljh, I will nee
 ANimal outfit designer is unique idea and is hgihly interactive, but it can misrespresent certain clothign and may come to have copyright issues,
 
 However..... "", making  it a more suitbale choice for my final project overall. 
- 
+## Design brief
+
+### Requirements Outline: (Functional requirements)
+1. Home page:
+2. Sections:
+3. post page
+4. dropdown menu
+
+### Requirements Outline: (Nonfunctional requirements)
+1. Performance
+2. Usability
+3. Reliability
+4. Security
+
+
