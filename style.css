@@ -18,9 +18,21 @@ header {
     justify-content: space-between;
     align-items: center;
     z-index: 99;
-    
 
+}
 
+.logo {
+    font: size 2em;
+    color:azure;
+    user-select: none;
+}
 
+.navigation a {
+    position: relative;
+    font-size: 1.1em;
+    color:azure;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
 
 }
