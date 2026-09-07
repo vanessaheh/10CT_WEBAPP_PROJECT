@@ -11,14 +11,24 @@
     font-family:"VT323";
 }
 
+body{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    min-height:100vh;
+    background:url('background.png') no-repeat;
+    background-size: cover;
+    background-position:center;
+}
 header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 100px;
+    padding: 10px 100px;
     background: rgb(255, 0, 76);
     display: flex;
+    position: absolute;
     justify-content: space-between;
     align-items: center;
     z-index: 99;
@@ -27,7 +37,7 @@ header {
 }
 
 .image {
-    width:120px;
+    width:110px;
     height:auto;
     border:0;
 }
@@ -40,4 +50,21 @@ header {
     font-weight: 500;
     margin-left: 40px;
 
+}
+
+.navigation a::after{
+    content:'';
+    position: absolute;
+    left:0;
+    bottom: -4px;
+    width: 100%;
+    height: 3px;
+    background:#fff;
+    outline:none;
+    border-radius: 6px;
+    transform: scaleX(0);
+    transition:transform .5s;
+}
+.navigation a:hover::after{
+    transform:scaleX(1);
 }
