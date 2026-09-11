@@ -36,10 +36,33 @@ header {
 
 }
 
+.container {
+  position: relative;
+  width: 100%;
+}
+
 .image {
     width:110px;
     height:auto;
-    border:0;
+    border:0px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(0, 46, 255);
+    opacity: 0%;
+}
+
+.container:hover .overlay {
+  opacity: 30%;
 }
 
 .navigation a {
