@@ -55,49 +55,49 @@ header {
 }
 
 .img1 {
-    top: 150px;
+    top: 20%;
     left: 2%;
     width: 200px;
 }
 
 .img2 {
-    top: 150px;
+    top: 20%;
     left: 18.4%;
     width: 200px;
 }
 
 .img3 {
-    top: 150px;
+    top: 20%;
     left: 34.8%;
     width: 200px;
 }
 
 .img4 {
-    top: 150px;
+    top: 20%;
     left: 51.2%;
     width: 200px;
 }
 
 .img5 {
-    top: 150px;
+    top: 20%;
     left: 67.6%;
     width: 200px;
 }
 
 .img6 {
-    top: 150px;
+    top: 20%;
     left: 84%;
     width: 200px;
 }
 
 .img7 {
-    top: 400px;
+    top: 50%;
     left: 2%;
     width: 200px;
 }
 
 .img8 {
-    top: 400px;
+    top: 50%;
     left: 18.4%;
     width: 200px;
 }
@@ -165,4 +165,32 @@ header {
 
 .navigation a:hover::after{
     transform:scaleX(1);
+}
+
+@view-transition{
+    navigation:auto;
+}
+
+::view-transition-group(page-content){
+    animation-duration:1s;
+    animation-timing-function:ease;
+}
+
+::view-transition-old(page-content) {
+    animation-name:slide-out;
+}
+
+::view-transition-new(page-content) {
+    animation-name:slide-in;
+}
+@keyframes slide-out {
+    to {
+        translate:-100vw;
+    }
+}
+
+@keyframes slide-in {
+    from {
+        translate:-100vw;
+    }
 }
