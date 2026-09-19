@@ -31,6 +31,55 @@
     <p class ="description">
         Uploading preview!! </p>
 
+    <form>
+        <div class = form>
+        <div class = formstyle>
+            <label for="image-title">Image title:</label>
+            <input type="text" id="image-title" name="image-title">
+
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" value="TestingUser123" readonly>
+            
+            <br><br>
+
+            <label for="imageupload">Select Image</label>
+            <input type="file" id="image-upload" disabled>
+
+            <label for="link">Link:</label>
+            <input type="text" id="link">
+
+            <br><br>
+
+            <label for="upload-to">Upload to:</label>
+            <select id="upload-to" name="upload-to">
+                <option value="weave">Weave</option>
+                <option value="scraps">Scraps</option>
+                <option value="curiosities">Curiosities</option>
+            </select>
+            
+            <label for="rating">Rating (1-5):</label>
+            <select id="rating" name="rating">
+                <option value="">N/A</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+
+            <br><br>
+
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" rows="5"></textarea>
+
+            <br><br>
+        <div class = submitbutton>
+            <button type="submit" disabled>Submit</button>
+        </div>
+        </div>
+    </form>
+</div>
+
 </body>
 
 </html>

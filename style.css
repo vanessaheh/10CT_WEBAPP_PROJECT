@@ -133,6 +133,30 @@ header {
     width: 200px;
 }
 
+.img9 {
+    top: 65%;
+    left: 34.8%;
+    width: 200px;
+}
+
+.img10 {
+    top: 65%;
+    left: 51.2%;
+    width: 200px;
+}
+
+.img11 {
+    top: 65%;
+    left: 67.6%;
+    width: 200px;
+}
+
+.img12 {
+    top: 65%;
+    left: 84%;
+    width: 200px;
+}
+
 .galleryoverlay {
     position: absolute;
     top: 0;
@@ -140,13 +164,27 @@ header {
     width: 100%;
     height: 100%;
     transition: .5s ease;
-    background-color: rgb(187, 255, 0);
+    background-color: rgba(187, 255, 0, 0.3);
     opacity: 0;
-    pointer-events: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.galleryoverlay span {
+    color: white;
+    font-size: 20px;
+    opacity: 0;
+    transition: .5s ease;
 }
 
 .gallerycontainer:hover .galleryoverlay {
-    opacity: 30%;
+    opacity: 1;
+}
+
+.gallerycontainer:hover .galleryoverlay span {
+    opacity: 1;
 }
 
 .image {
@@ -245,4 +283,146 @@ header {
     height:auto;
     display: block;
     margin:0 auto;
+}
+
+.nextbutton {
+    font-weight: bold;
+    border: none;
+    font-size: 100px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: .3s ease;
+    overflow: hidden;
+    align-items: center;
+    color:rgb(255, 0, 76)
+}
+
+.nextbutton:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgb(255, 0, 76));
+    opacity: 0;
+    transition: opacity .3s ease;
+}
+
+.nextbutton:hover {
+    background-color: rgb(255, 0, 76);
+    color: #fff;
+    box-shadow: 0 0 10px rgb(255, 0, 76);
+    overflow: hidden;
+    
+}
+.nextbutton:hover:before {
+    opacity: 1;
+}
+
+.frontbutton {
+    position: absolute;
+    top: 47.5%;
+    right:1%;
+}
+
+.backbutton {
+    position: absolute;
+    top: 47.5%;
+    left:1%;
+}
+
+.page {
+    position: absolute;
+    top: 95%;
+    right: 2%;
+    padding: 0px;
+    color: rgb(0, 46, 255);
+    font-size: 20px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formstyle {
+    position: relative;
+    top: 140px;
+    color: rgb(0, 46, 255);
+    font-size: 20px;
+    text-align: center;
+}
+
+.formstyle textarea {
+    display: block;
+    height: 200px;
+    width: 400px;
+    margin: 10px auto;
+    box-sizing: border-box;
+}
+
+
+.submitbutton {
+    text-align: center;
+    margin-top: -20px;
+}
+
+
+.submitbutton button{
+    font-size: 20px;
+    padding: 10px 30px;
+}
+
+.uploadbackground2 {
+    border: 3px solid white;
+    position: absolute;
+    align-items: center;
+    top: 180px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+    width: 800px;
+    height: 470px;
+}
+
+.uploadbackgroundalt {
+    border: 3px solid white;
+    position: absolute;
+    align-items: center;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+    width: 800px;
+    height: 470px;
+}
+
+.info {
+    position: absolute;
+    z-index: 2;
+    top: 35%;
+    left: 40%;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: left;
+}
+
+.info p {
+    margin: 10px 0;
+}
+
+.info span {
+    color: rgb(0, 46, 255);
+}
+
+.uploadimage {
+    position: absolute;
+    top:45%;
+    left:20%;
+    width:110px;
+    height:auto;
+    border:0px;
 }
